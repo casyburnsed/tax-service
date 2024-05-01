@@ -3,9 +3,50 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+
+    /* HEADER */   
+
+}
+.header {
+    display: flex;
+    background: rgb(10, 37, 60);
+    justify-content: space-between;
+    align-items: center
+    padding; 10px;
+}
+.logo {
+    display: flex;
+    height: 50px;
+    padding: 30px;
+}
+.header-right {
+    padding: 40px;
+}
+a {
+    color: antiquewhite;
+    text-decoration: antiquewhite;
+    font-size: large;
+    margin: 15px;
 }
 
-.header {
+/* PART ONE */
+
+.part-1 {
+    display: flex;
     background: rgb(10, 37, 60);
-    display:flex;
+    color: antiquewhite;
+    flex-direction: column;
+}
+
+
+.item-3 {
+    height: 30px;
+    width: 200px;
+}
+
+.item-4{
+    
+    height: auto;
+    width: 300px;
+    flex-direction: row;
 }
