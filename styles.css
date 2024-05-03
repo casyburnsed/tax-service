@@ -15,8 +15,6 @@
     align-items: center;
     background: rgb(10, 37, 60);
     gap: 985px;
-    
-    
 }
 
 .logo {
@@ -26,10 +24,10 @@
     width: 100%;
     height: auto;
     padding: 30px;
+
 }
 .header-right {
     padding: 40px;
-   
 }
 a {
     color: antiquewhite;
@@ -71,7 +69,7 @@ p {
     font-weight: 900;
 }
 
-button {
+#button1 {
     font-size: 20px;
     color: antiquewhite;
     padding: 5px;
@@ -107,7 +105,6 @@ h2, span {
     padding: 3%;
 }
 
-
 .main-container, .box {
     display: flex;
     flex-direction: row;
@@ -140,17 +137,90 @@ h2, span {
     margin: auto;
 }
 
+/* Customer Review Section */
+
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    height: 600px;
+    height: 300px;
     justify-content: center;
-    width: auto;
-    padding: 40px;
+    align-items: center;
+    width: auto;  
 }
 
 blockquote {
     display:flex;
-    font-size: 30px;
+    font-size: 28px;
     width: 800px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.person {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Newsletter Section */
+
+.footer {
+    background-color: white;
+    padding: 5%;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    width: 900px;
+    height: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.left {
+    flex: 2;
+    padding: 3%;
+    color: antiquewhite;
+    margin: auto;
+}
+
+#l1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#l2 {
+    font-size: 25px;
+}
+
+.right {
+    flex: 1;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+#button2 {
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: #3882f6;
+}
+
+/* Footer Section */
+
+.end {
+    background: rgb(10, 37, 60);
+    height: 50px;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
 }
